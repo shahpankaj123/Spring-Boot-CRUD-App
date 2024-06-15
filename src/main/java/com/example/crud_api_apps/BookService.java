@@ -5,7 +5,7 @@ import java.util.List;
 public interface BookService {
 
     String Createbook(Books book);
-    List<Books> Readbook();
+    List<Booksentity> Readbook();
     Boolean delbook(long id);
 
 } 
